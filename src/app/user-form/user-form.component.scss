@@ -1,0 +1,63 @@
+.card {
+  &.my-5 {
+    margin-top: 1.25rem; /* Adjust the top margin as needed */
+    margin-bottom: 1.25rem; /* Adjust the bottom margin as needed */
+  }
+
+  &-body {
+    padding: 1.25rem; /* Adjust the padding as needed */
+  }
+
+  form {
+    max-width: 400px; /* Adjust the maximum width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+
+    .form-group {
+      margin-bottom: 1rem; /* Adjust the margin between form groups */
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem; /* Adjust the margin below labels */
+      font-weight: bold; /* Make labels bold */
+    }
+
+    input {
+      width: 100%;
+      padding: 0.75rem; /* Adjust the input padding */
+      font-size: 1rem; /* Adjust the input font size */
+      border: 1px solid #dee2e6; /* Adjust the border color as needed */
+    }
+
+    .alert {
+      margin-top: 0.25rem; /* Adjust the margin above alerts */
+      padding: 0.75rem; /* Adjust the padding of alerts */
+      background-color: #f8d7da; /* Alert background color */
+      border: 1px solid #f5c6cb; /* Alert border color */
+      color: #721c24; /* Alert text color */
+      border-radius: 0.25rem; /* Adjust the border-radius of alerts */
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      padding: 0.75rem; /* Adjust the button padding */
+      font-size: 1rem; /* Adjust the button font size */
+      background-color: #007bff; /* Button background color */
+      color: #fff; /* Button text color */
+      border: 1px solid #007bff; /* Button border color */
+      border-radius: 0.25rem; /* Adjust the border-radius of the button */
+
+      &:hover {
+        background-color: #0056b3; /* Button background color on hover */
+        border-color: #0056b3; /* Button border color on hover */
+      }
+
+      &:disabled {
+        background-color: #6c757d; /* Disabled button background color */
+        border-color: #6c757d; /* Disabled button border color */
+        cursor: not-allowed; /* Change cursor to not-allowed for disabled button */
+      }
+    }
+  }
+}
